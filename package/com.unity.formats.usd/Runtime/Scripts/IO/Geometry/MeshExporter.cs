@@ -364,9 +364,9 @@ namespace Unity.Formats.USD
                     if (!exportContext.matMap.TryGetValue(sharedMaterial, out usdMaterialPath))
                     {
                         Debug.LogError("Invalid material bound for: " + path);
-                    }
-                    else
-                    {
+                    } else if (mesh.subMeshCount > 1) {
+            			Debug.Log("Skip material binding when sub meshes exist.");
+          			} else {
                         MaterialSample.Bind(scene, path, usdMaterialPath);
                     }
                 }
