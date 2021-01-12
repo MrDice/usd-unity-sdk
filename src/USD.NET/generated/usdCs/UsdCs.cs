@@ -2525,128 +2525,18 @@ public class UsdCs {
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeBool() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeBool(), true);
+  public static SdfValueTypeName SdfGetValueTypeColor4dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor4dArray(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeUChar() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUChar(), true);
+  public static SdfValueTypeName SdfGetValueTypeMatrix3d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix3d(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeInt() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeUInt() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUInt(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt64() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt64(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeUInt64() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUInt64(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalf() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFloat() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeDouble() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTimeCode() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTimeCode(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeString() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeString(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeToken() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeToken(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeAsset() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeAsset(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt2() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt2(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt3() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt3(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt4() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt4(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalf2() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf2(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalf3() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf3(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalf4() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf4(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFloat2() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat2(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFloat3() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat3(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFloat4() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat4(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeDouble2() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble2(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeDouble3() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble3(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeDouble4() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble4(), true);
+  public static SdfValueTypeName SdfGetValueTypeTexCoord3dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3dArray(), true);
     return ret;
   }
 
@@ -2655,8 +2545,8 @@ public class UsdCs {
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypePoint3f() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3f(), true);
+  public static SdfValueTypeName SdfGetValueTypeAsset() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeAsset(), true);
     return ret;
   }
 
@@ -2665,48 +2555,33 @@ public class UsdCs {
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeVector3h() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3h(), true);
+  public static SdfValueTypeName SdfGetValueTypePoint3f() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3f(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeVector3f() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3f(), true);
+  public static SdfValueTypeName SdfGetValueTypeQuathArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuathArray(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeVector3d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3d(), true);
+  public static SdfValueTypeName SdfGetValueTypeUChar() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUChar(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeNormal3h() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3h(), true);
+  public static SdfValueTypeName SdfGetValueTypeMatrix2dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix2dArray(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeNormal3f() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3f(), true);
+  public static SdfValueTypeName SdfGetValueTypeTexCoord2fArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2fArray(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeNormal3d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3d(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor3h() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3h(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor3f() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3f(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor3d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3d(), true);
+  public static SdfValueTypeName SdfGetValueTypeVector3dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3dArray(), true);
     return ret;
   }
 
@@ -2725,173 +2600,8 @@ public class UsdCs {
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeQuath() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuath(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeQuatf() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatf(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeQuatd() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatd(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeMatrix2d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix2d(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeMatrix3d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix3d(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeMatrix4d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix4d(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFrame4d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFrame4d(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTexCoord2h() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2h(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTexCoord2f() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2f(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTexCoord2d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2d(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTexCoord3h() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3h(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTexCoord3f() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3f(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTexCoord3d() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3d(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeBoolArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeBoolArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeUCharArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUCharArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeIntArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeIntArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeUIntArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUIntArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt64Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt64Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeUInt64Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUInt64Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalfArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalfArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFloatArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloatArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeDoubleArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDoubleArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTimeCodeArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTimeCodeArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeStringArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeStringArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeTokenArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTokenArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeAssetArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeAssetArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt2Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt2Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt3Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt3Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeInt4Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt4Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalf2Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf2Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalf3Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf3Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeHalf4Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf4Array(), true);
-    return ret;
-  }
-
   public static SdfValueTypeName SdfGetValueTypeFloat2Array() {
     SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat2Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFloat3Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat3Array(), true);
     return ret;
   }
 
@@ -2900,53 +2610,13 @@ public class UsdCs {
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeDouble2Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble2Array(), true);
+  public static SdfValueTypeName SdfGetValueTypeAssetArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeAssetArray(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeDouble3Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble3Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeDouble4Array() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble4Array(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypePoint3hArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3hArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypePoint3fArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3fArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypePoint3dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3dArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeVector3hArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3hArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeVector3fArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3fArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeVector3dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3dArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeNormal3hArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3hArray(), true);
+  public static SdfValueTypeName SdfGetValueTypeUInt() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUInt(), true);
     return ret;
   }
 
@@ -2955,73 +2625,13 @@ public class UsdCs {
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeNormal3dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3dArray(), true);
+  public static SdfValueTypeName SdfGetValueTypeToken() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeToken(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeColor3hArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3hArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor3fArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3fArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor3dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3dArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor4hArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor4hArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor4fArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor4fArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeColor4dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor4dArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeQuathArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuathArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeQuatfArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatfArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeQuatdArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatdArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeMatrix2dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix2dArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeMatrix3dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix3dArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeMatrix4dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix4dArray(), true);
-    return ret;
-  }
-
-  public static SdfValueTypeName SdfGetValueTypeFrame4dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFrame4dArray(), true);
+  public static SdfValueTypeName SdfGetValueTypeFloat3Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat3Array(), true);
     return ret;
   }
 
@@ -3030,8 +2640,48 @@ public class UsdCs {
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeTexCoord2fArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2fArray(), true);
+  public static SdfValueTypeName SdfGetValueTypeUCharArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUCharArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDoubleArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDoubleArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeFrame4d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFrame4d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeQuatdArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatdArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypePoint3hArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3hArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeString() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeString(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeVector3hArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3hArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeNormal3dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3dArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeColor3dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3dArray(), true);
     return ret;
   }
 
@@ -3040,18 +2690,368 @@ public class UsdCs {
     return ret;
   }
 
+  public static SdfValueTypeName SdfGetValueTypeHalf3Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf3Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeMatrix4dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix4dArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeNormal3h() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3h(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeColor3fArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3fArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeColor4hArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor4hArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeNormal3d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeMatrix2d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix2d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeNormal3f() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3f(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeUInt64() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUInt64(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeFloatArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloatArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeColor3f() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3f(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeColor3d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt64Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt64Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeIntArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeIntArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypePoint3dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3dArray(), true);
+    return ret;
+  }
+
   public static SdfValueTypeName SdfGetValueTypeTexCoord3hArray() {
     SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3hArray(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeTexCoord3fArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3fArray(), true);
+  public static SdfValueTypeName SdfGetValueTypeBool() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeBool(), true);
     return ret;
   }
 
-  public static SdfValueTypeName SdfGetValueTypeTexCoord3dArray() {
-    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3dArray(), true);
+  public static SdfValueTypeName SdfGetValueTypeColor3hArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3hArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDouble2() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble2(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDouble3() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble3(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeUInt64Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUInt64Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeStringArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeStringArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDouble4() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble4(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeMatrix3dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix3dArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeQuatf() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatf(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDouble3Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble3Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeQuatd() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatd(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeQuath() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuath(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt4() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt4(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeHalf4Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf4Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt2() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt2(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypePoint3fArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypePoint3fArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt3() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt3(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeBoolArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeBoolArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeHalf2Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf2Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTimeCode() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTimeCode(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeMatrix4d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeMatrix4d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDouble4Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble4Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeHalfArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalfArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeFloat4() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat4(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeFloat2() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat2(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeFloat3() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat3(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTimeCodeArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTimeCodeArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeUIntArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeUIntArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTexCoord2d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeHalf3() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf3(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTexCoord3h() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3h(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeFrame4dArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFrame4dArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeVector3fArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3fArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTexCoord3d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTexCoord3f() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3f(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeColor3h() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor3h(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeHalf() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeVector3h() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3h(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeVector3d() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3d(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDouble() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeVector3f() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeVector3f(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt4Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt4Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeColor4fArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeColor4fArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeQuatfArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeQuatfArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeDouble2Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeDouble2Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTokenArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTokenArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeNormal3hArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeNormal3hArray(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt3Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt3Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTexCoord2h() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2h(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeHalf4() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf4(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeFloat() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeFloat(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTexCoord2f() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord2f(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeHalf2() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeHalf2(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt2Array() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt2Array(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeInt64() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeInt64(), true);
+    return ret;
+  }
+
+  public static SdfValueTypeName SdfGetValueTypeTexCoord3fArray() {
+    SdfValueTypeName ret = new SdfValueTypeName(UsdCsPINVOKE.SdfGetValueTypeTexCoord3fArray(), true);
     return ret;
   }
 

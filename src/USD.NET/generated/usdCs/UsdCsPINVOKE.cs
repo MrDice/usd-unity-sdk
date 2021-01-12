@@ -10668,116 +10668,41 @@ class UsdCsPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_hash_value__SWIG_47")]
   public static extern uint hash_value__SWIG_47(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeBool")]
-  public static extern global::System.IntPtr SdfGetValueTypeBool();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor4dArray();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUChar")]
-  public static extern global::System.IntPtr SdfGetValueTypeUChar();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix3d")]
+  public static extern global::System.IntPtr SdfGetValueTypeMatrix3d();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUInt")]
-  public static extern global::System.IntPtr SdfGetValueTypeUInt();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt64")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt64();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUInt64")]
-  public static extern global::System.IntPtr SdfGetValueTypeUInt64();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalf();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat")]
-  public static extern global::System.IntPtr SdfGetValueTypeFloat();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble")]
-  public static extern global::System.IntPtr SdfGetValueTypeDouble();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTimeCode")]
-  public static extern global::System.IntPtr SdfGetValueTypeTimeCode();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeString")]
-  public static extern global::System.IntPtr SdfGetValueTypeString();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeToken")]
-  public static extern global::System.IntPtr SdfGetValueTypeToken();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeAsset")]
-  public static extern global::System.IntPtr SdfGetValueTypeAsset();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt2")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt2();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt3")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt3();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt4")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt4();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf2")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalf2();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf3")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalf3();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf4")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalf4();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat2")]
-  public static extern global::System.IntPtr SdfGetValueTypeFloat2();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat3")]
-  public static extern global::System.IntPtr SdfGetValueTypeFloat3();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat4")]
-  public static extern global::System.IntPtr SdfGetValueTypeFloat4();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble2")]
-  public static extern global::System.IntPtr SdfGetValueTypeDouble2();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble3")]
-  public static extern global::System.IntPtr SdfGetValueTypeDouble3();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble4")]
-  public static extern global::System.IntPtr SdfGetValueTypeDouble4();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3dArray();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3h")]
   public static extern global::System.IntPtr SdfGetValueTypePoint3h();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3f")]
-  public static extern global::System.IntPtr SdfGetValueTypePoint3f();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeAsset")]
+  public static extern global::System.IntPtr SdfGetValueTypeAsset();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3d")]
   public static extern global::System.IntPtr SdfGetValueTypePoint3d();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3h")]
-  public static extern global::System.IntPtr SdfGetValueTypeVector3h();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3f")]
+  public static extern global::System.IntPtr SdfGetValueTypePoint3f();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3f")]
-  public static extern global::System.IntPtr SdfGetValueTypeVector3f();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuathArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeQuathArray();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3d")]
-  public static extern global::System.IntPtr SdfGetValueTypeVector3d();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUChar")]
+  public static extern global::System.IntPtr SdfGetValueTypeUChar();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3h")]
-  public static extern global::System.IntPtr SdfGetValueTypeNormal3h();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix2dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeMatrix2dArray();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3f")]
-  public static extern global::System.IntPtr SdfGetValueTypeNormal3f();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2fArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2fArray();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3d")]
-  public static extern global::System.IntPtr SdfGetValueTypeNormal3d();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3h")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor3h();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3f")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor3f();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3d")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor3d();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeVector3dArray();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4h")]
   public static extern global::System.IntPtr SdfGetValueTypeColor4h();
@@ -10788,203 +10713,278 @@ class UsdCsPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4d")]
   public static extern global::System.IntPtr SdfGetValueTypeColor4d();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuath")]
-  public static extern global::System.IntPtr SdfGetValueTypeQuath();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatf")]
-  public static extern global::System.IntPtr SdfGetValueTypeQuatf();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatd")]
-  public static extern global::System.IntPtr SdfGetValueTypeQuatd();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix2d")]
-  public static extern global::System.IntPtr SdfGetValueTypeMatrix2d();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix3d")]
-  public static extern global::System.IntPtr SdfGetValueTypeMatrix3d();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix4d")]
-  public static extern global::System.IntPtr SdfGetValueTypeMatrix4d();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFrame4d")]
-  public static extern global::System.IntPtr SdfGetValueTypeFrame4d();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2h")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2h();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2f")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2f();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2d")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2d();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3h")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3h();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3f")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3f();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3d")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3d();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeBoolArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeBoolArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUCharArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeUCharArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeIntArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeIntArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUIntArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeUIntArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt64Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt64Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUInt64Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeUInt64Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalfArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalfArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloatArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeFloatArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDoubleArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeDoubleArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTimeCodeArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeTimeCodeArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeStringArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeStringArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTokenArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeTokenArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeAssetArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeAssetArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt2Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt2Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt3Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt3Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt4Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeInt4Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf2Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalf2Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf3Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalf3Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf4Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeHalf4Array();
-
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat2Array")]
   public static extern global::System.IntPtr SdfGetValueTypeFloat2Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat3Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeFloat3Array();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat4Array")]
   public static extern global::System.IntPtr SdfGetValueTypeFloat4Array();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble2Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeDouble2Array();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeAssetArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeAssetArray();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble3Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeDouble3Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble4Array")]
-  public static extern global::System.IntPtr SdfGetValueTypeDouble4Array();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3hArray")]
-  public static extern global::System.IntPtr SdfGetValueTypePoint3hArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3fArray")]
-  public static extern global::System.IntPtr SdfGetValueTypePoint3fArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypePoint3dArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3hArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeVector3hArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3fArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeVector3fArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeVector3dArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3hArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeNormal3hArray();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUInt")]
+  public static extern global::System.IntPtr SdfGetValueTypeUInt();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3fArray")]
   public static extern global::System.IntPtr SdfGetValueTypeNormal3fArray();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeNormal3dArray();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeToken")]
+  public static extern global::System.IntPtr SdfGetValueTypeToken();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3hArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor3hArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3fArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor3fArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor3dArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4hArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor4hArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4fArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor4fArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeColor4dArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuathArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeQuathArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatfArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeQuatfArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatdArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeQuatdArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix2dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeMatrix2dArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix3dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeMatrix3dArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix4dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeMatrix4dArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFrame4dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeFrame4dArray();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat3Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeFloat3Array();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2hArray")]
   public static extern global::System.IntPtr SdfGetValueTypeTexCoord2hArray();
 
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2fArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2fArray();
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUCharArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeUCharArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDoubleArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeDoubleArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFrame4d")]
+  public static extern global::System.IntPtr SdfGetValueTypeFrame4d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatdArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeQuatdArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3hArray")]
+  public static extern global::System.IntPtr SdfGetValueTypePoint3hArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeString")]
+  public static extern global::System.IntPtr SdfGetValueTypeString();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3hArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeVector3hArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeNormal3dArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor3dArray();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2dArray")]
   public static extern global::System.IntPtr SdfGetValueTypeTexCoord2dArray();
 
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf3Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalf3Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix4dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeMatrix4dArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3h")]
+  public static extern global::System.IntPtr SdfGetValueTypeNormal3h();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3fArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor3fArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4hArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor4hArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3d")]
+  public static extern global::System.IntPtr SdfGetValueTypeNormal3d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix2d")]
+  public static extern global::System.IntPtr SdfGetValueTypeMatrix2d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3f")]
+  public static extern global::System.IntPtr SdfGetValueTypeNormal3f();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUInt64")]
+  public static extern global::System.IntPtr SdfGetValueTypeUInt64();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloatArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeFloatArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3f")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor3f();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3d")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor3d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt64Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt64Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeIntArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeIntArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypePoint3dArray();
+
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3hArray")]
   public static extern global::System.IntPtr SdfGetValueTypeTexCoord3hArray();
 
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeBool")]
+  public static extern global::System.IntPtr SdfGetValueTypeBool();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3hArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor3hArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble2")]
+  public static extern global::System.IntPtr SdfGetValueTypeDouble2();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble3")]
+  public static extern global::System.IntPtr SdfGetValueTypeDouble3();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUInt64Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeUInt64Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeStringArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeStringArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble4")]
+  public static extern global::System.IntPtr SdfGetValueTypeDouble4();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix3dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeMatrix3dArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatf")]
+  public static extern global::System.IntPtr SdfGetValueTypeQuatf();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble3Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeDouble3Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatd")]
+  public static extern global::System.IntPtr SdfGetValueTypeQuatd();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuath")]
+  public static extern global::System.IntPtr SdfGetValueTypeQuath();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt4")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt4();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf4Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalf4Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt2")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt2();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypePoint3fArray")]
+  public static extern global::System.IntPtr SdfGetValueTypePoint3fArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt3")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt3();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeBoolArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeBoolArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf2Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalf2Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTimeCode")]
+  public static extern global::System.IntPtr SdfGetValueTypeTimeCode();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeMatrix4d")]
+  public static extern global::System.IntPtr SdfGetValueTypeMatrix4d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble4Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeDouble4Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalfArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalfArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat4")]
+  public static extern global::System.IntPtr SdfGetValueTypeFloat4();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat2")]
+  public static extern global::System.IntPtr SdfGetValueTypeFloat2();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat3")]
+  public static extern global::System.IntPtr SdfGetValueTypeFloat3();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTimeCodeArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeTimeCodeArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeUIntArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeUIntArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2d")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf3")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalf3();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3h")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3h();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFrame4dArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeFrame4dArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3fArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeVector3fArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3d")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3f")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3f();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor3h")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor3h();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalf();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3h")]
+  public static extern global::System.IntPtr SdfGetValueTypeVector3h();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3d")]
+  public static extern global::System.IntPtr SdfGetValueTypeVector3d();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble")]
+  public static extern global::System.IntPtr SdfGetValueTypeDouble();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeVector3f")]
+  public static extern global::System.IntPtr SdfGetValueTypeVector3f();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt4Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt4Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeColor4fArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeColor4fArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeQuatfArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeQuatfArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeDouble2Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeDouble2Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTokenArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeTokenArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeNormal3hArray")]
+  public static extern global::System.IntPtr SdfGetValueTypeNormal3hArray();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt3Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt3Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2h")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2h();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf4")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalf4();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeFloat")]
+  public static extern global::System.IntPtr SdfGetValueTypeFloat();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord2f")]
+  public static extern global::System.IntPtr SdfGetValueTypeTexCoord2f();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeHalf2")]
+  public static extern global::System.IntPtr SdfGetValueTypeHalf2();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt2Array")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt2Array();
+
+  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeInt64")]
+  public static extern global::System.IntPtr SdfGetValueTypeInt64();
+
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3fArray")]
   public static extern global::System.IntPtr SdfGetValueTypeTexCoord3fArray();
-
-  [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_SdfGetValueTypeTexCoord3dArray")]
-  public static extern global::System.IntPtr SdfGetValueTypeTexCoord3dArray();
 
   [global::System.Runtime.InteropServices.DllImport("UsdCs", EntryPoint="CSharp_pxr_new_SdfAssetPath__SWIG_0")]
   public static extern global::System.IntPtr new_SdfAssetPath__SWIG_0();
