@@ -376,18 +376,23 @@ namespace Unity.Formats.USD
                 if (mesh.subMeshCount > 1)
                 {
                     // Build a table of face indices, used to convert the subMesh triangles to face indices.
+                    Vector3 faceIndex;
                     var faceTable = new Dictionary<Vector3, int>();
                     for (int i = 0; i < tris.Length; i += 3)
                     {
                         if (!slowAndSafeConversion)
                         {
-                            faceTable.Add(new Vector3(tris[i], tris[i + 1], tris[i + 2]), i / 3);
+                            faceIndex = new Vector3(tris[i], tris[i + 1], tris[i + 2]);
                         }
                         else
                         {
                             // Under slow and safe export, index 0 and 1 are swapped.
                             // This swap will not be present in the subMesh indices, so must be undone here.
-                            faceTable.Add(new Vector3(tris[i + 1], tris[i], tris[i + 2]), i / 3);
+                            faceIndex = new Vector3(tris[i + 1], tris[i], tris[i + 2]);
+                        }
+                        if (!faceTable.ContainsKey(faceIndex))
+                        {
+                            faceTable.Add(faceIndex, i / 3);
                         }
                     }
 
